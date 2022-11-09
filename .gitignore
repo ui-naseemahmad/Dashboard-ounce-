@@ -1,0 +1,16 @@
+/node_modules
+
+#Builds
+/build
+
+#Editor
+/.vscode
+/.idea
+
+#Local overrides
+.env.development.local
+.env.staging.local
+.env.production.local
+
+#Temporary Jsons
+StaticJsons/
