@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card,FlexLayout,TextStyles} from '@cedcommerce/ounce-ui';
+import {Card,FlexLayout,TextStyles,Tabs} from '@cedcommerce/ounce-ui';
 import "./style.css";
 import DomainNew from '../Assets/Images/SVG/DomainNew'
 import CircleUp from '../Assets/Images/SVG/CicleUp';
@@ -156,6 +156,47 @@ const Leverage = () => {
               </FlexLayout>                     
             </Card>
           </FlexLayout>          
+        </Card>
+        <Card>
+        <Tabs
+  alignment="horizontal"
+  animate="type1"
+  onChange={function noRefCheck(){}}
+  selected="all-customers"
+  value={[
+    {
+      content: 'All',
+      id: 'all-customers'
+    },
+    {
+      content: 'Product',
+      id: 'Error'
+    },
+    {
+      content: 'Pending',
+      id: 'Pending'
+    },
+    {
+      content: 'Warning',
+      error: true,
+      id: 'Warning'
+    },
+    {
+      content: 'Finished',
+      id: 'Finished'
+    },
+    {
+      content: 'Not Uploaded',
+      id: 'Not Uploaded'
+    }
+  ]}
+>
+  <Card title="Card Heading">
+    <h1>
+      Tab 1
+    </h1>
+  </Card>
+</Tabs>
         </Card>
     </div>
   )
