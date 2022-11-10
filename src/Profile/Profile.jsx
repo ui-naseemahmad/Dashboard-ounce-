@@ -1,5 +1,7 @@
-import { Button, Card, PageHeader,Alert, TextStyles,DoughnutCharts,Grid,Datepicker,FormElement,TextField,Radio,Select, FlexLayout,MainLayout,LRLayout,FlexChild,Progressbar, Wysiwyg} from '@cedcommerce/ounce-ui';
-
+import { Button, Card, PageHeader,Alert,Faq, TextStyles,DoughnutCharts,Grid,Datepicker,FormElement,TextField,Radio,Select, FlexLayout,MainLayout,LRLayout,FlexChild,Progressbar, Wysiwyg} from '@cedcommerce/ounce-ui';
+import DomainNew from '../Assets/Images/SVG/DomainNew'
+import CircleUp from '../Assets/Images/SVG/CicleUp';
+import FraudProtect from '../Assets/Images/SVG/FraudProtect';
 import React from 'react';
 
 
@@ -104,7 +106,7 @@ const Profile = () => {
             </FlexLayout>
         </Card>
 
-         <Card cardType='Plain'>
+        <Card cardType='Plain'>
              <FlexLayout   
               childWidth='fullWidth' 
               spacing='loose'>    
@@ -245,94 +247,382 @@ const Profile = () => {
          </Card>
 
          <Card cardType='Plain'>
-         <MainLayout>
-  <Card title="Primary Layout Card 70%">
-    <TextStyles>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis numquam adipisci aliquam, neque ratione placeat eligendi, error a molestiae voluptate nihil sequi dolore voluptatibus saepe dicta labore exercitationem quibusdam totam.
-    </TextStyles>
-  </Card>
-  <Card title="Secondary Layout Card 30%">
-    <TextStyles>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis numquam adipisci aliquam, neque ratione placeat eligendi, error a molestiae voluptate nihil sequi dolore voluptatibus saepe dicta labore exercitationem quibusdam totam.
-    </TextStyles>
-  </Card>
-</MainLayout>
+          <FlexLayout direction='vertical' spacing='mediumLoose'>
+            <Card cardType='Plain'>
+              
+            </Card>
+
+            <TextStyles
+              fontweight="bold"
+              headingTypes="MD-2.7"
+              lineHeight="LH-3.2"
+              subheadingTypes="LG-2.5"
+              textcolor="dark"
+              type="Heading"              
+            >
+             Lorem Ipsum is simply dummy text of the printing
+            </TextStyles>
+            <TextStyles
+              fontweight="bold"
+              lineHeight="LH-2.4"
+              subheadingTypes="SM-1.8"
+              textcolor="dark"
+              type="SubHeading"
+            >
+             Lorem Ipsum is simply dummy 
+            </TextStyles>            
+            <hr />
+          <FlexLayout desktopWidth='50' tabWidth='50' mobileWidth='100' spacing='loose'>
+                <Card>
+                  <FlexLayout spacing='tight' wrap='noWrap'>
+                 
+                    <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                  
+                     
+                   </FlexLayout>  
+                   </Card>
+        <Card>
+
+       
+                   <FlexLayout spacing='tight' wrap='noWrap'>
+                      <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                   </FlexLayout>
+                   </Card>
+
+           </FlexLayout>
+           <FlexLayout desktopWidth='50' tabWidth='50' mobileWidth='100' spacing='loose'>
+                <Card>
+                  <FlexLayout spacing='tight' wrap='noWrap'>
+                 
+                    <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                  
+                     
+                   </FlexLayout>  
+                   </Card>
+        <Card>
+
+       
+                   <FlexLayout spacing='tight' wrap='noWrap'>
+                      <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                   </FlexLayout>
+                   </Card>
+
+           </FlexLayout>
+           <FlexLayout desktopWidth='50' tabWidth='50' mobileWidth='100' spacing='loose'>
+                <Card>
+                  <FlexLayout spacing='tight' wrap='noWrap'>
+                 
+                    <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                  
+                     
+                   </FlexLayout>  
+                   </Card>
+        <Card>
+
+       
+                   <FlexLayout spacing='tight' wrap='noWrap'>
+                      <DomainNew />
+                      <TextStyles
+                        fontweight="normal"
+                        lineHeight="LH-2.0"
+                        paragraphTypes="MD-1.4"           
+                        textcolor="dark"
+                        type="Paragraph"
+                      >
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      </TextStyles>
+                   </FlexLayout>
+                   </Card>
+
+           </FlexLayout>
+
+            <MainLayout>
+              <Card title="Primary Layout Card 70%">
+                <TextStyles>
+                  Lorem ipsum dolor sit 70%%, amet consectetur adipisicing elit. Debitis numquam adipisci aliquam, neque ratione placeat eligendi, error a molestiae voluptate nihil sequi dolore voluptatibus saepe dicta labore exercitationem quibusdam totam.
+                </TextStyles>
+              </Card>
+              <Card title="Secondary Layout Card 30%">
+                <TextStyles>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis numquam adipisci aliquam, neque ratione placeat eligendi, error a molestiae voluptate nihil sequi dolore voluptatibus saepe dicta labore exercitationem quibusdam totam.
+                </TextStyles>
+              </Card>
+            </MainLayout>
+          </FlexLayout>
+       
 
 
          </Card>
 
 
-<Card cardType='Plain'>
-<LRLayout
-  lrHelpText="Left Right help text"
-  title="Label"
->
-  <FormElement>
-    <TextField
-      name="Label1"
-      onChange={function noRefCheck(){}}
-      value=""
-    />
-    <TextField
-      name="Label2"
-      onChange={function noRefCheck(){}}
-      value=""
-    />
-    <Select
-      name="Label 3"
-      onChange={function noRefCheck(){}}
-      options={[
-        {
-          label: 'label_1',
-          value: 'value_1'
-        },
-        {
-          label: 'label_2',
-          value: 'value_2'
-        },
-        {
-          label: 'label_3',
-          value: 'value_3'
-        }
-      ]}
-      value=""
-    />
-    <FlexLayout
-      direction="vertical"
-      spacing="mediumTight"
-    >
-      <TextStyles>
-        Choice List
-      </TextStyles>
-      <Radio
-        id="one"
-        labelVal="Label 1"
-        name="one"
-        onClick={function noRefCheck(){}}
-      />
-      <Radio
-        id="two"
-        labelVal="Label 2"
-        name="one"
-        onClick={function noRefCheck(){}}
-      />
-      <Radio
-        id="=three"
-        labelVal="Label 3"
-        name="one"
-        onClick={function noRefCheck(){}}
-      />
-    </FlexLayout>
-  </FormElement>
-</LRLayout>
-</Card>
+        <Card cardType='Plain'>
+        <LRLayout
+          lrHelpText="Left Right help text"
+          title="Label"
+        >
+          <FormElement>
+            <TextField
+              name="Label1"
+              onChange={function noRefCheck(){}}
+              value=""
+            />
+            <TextField
+              name="Label2"
+              onChange={function noRefCheck(){}}
+              value=""
+            />
+            <Select
+              name="Label 3"
+              onChange={function noRefCheck(){}}
+              options={[
+                {
+                  label: 'label_1',
+                  value: 'value_1'
+                },
+                {
+                  label: 'label_2',
+                  value: 'value_2'
+                },
+                {
+                  label: 'label_3',
+                  value: 'value_3'
+                }
+              ]}
+              value=""
+            />
+            <FlexLayout
+              direction="vertical"
+              spacing="mediumTight"
+            >
+              <TextStyles>
+                Choice List
+              </TextStyles>
+              <Radio
+                id="one"
+                labelVal="Label 1"
+                name="one"
+                onClick={function noRefCheck(){}}
+              />
+              <Radio
+                id="two"
+                labelVal="Label 2"
+                name="one"
+                onClick={function noRefCheck(){}}
+              />
+              <Radio
+                id="=three"
+                labelVal="Label 3"
+                name="one"
+                onClick={function noRefCheck(){}}
+              />
+            </FlexLayout>
+          </FormElement>
+        </LRLayout>
+        </Card>
         
-     <Card cardType='Plain'>
+        <Card cardType='Plain'>
       <Wysiwyg>
        </Wysiwyg>
-     </Card>
+        </Card>
 
-        
+        <Card cardType="Plain">
+        <Faq
+  Searchvalue=""
+  clearFunction={function noRefCheck(){}}
+  data={{
+    'Common Queries': [
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'How to make your Shopify Products available to the?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      }
+    ]
+  }}
+  description="Find Solution To All Your queries"
+  iconAlign="right"
+  onEnter={function noRefCheck(){}}
+  onSearch={function noRefCheck(){}}
+  options={{
+    'Common Queries': [
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'How to make your Shopify Products available to the?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      }
+    ],
+    'Order Section': [
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'How to make your Shopify Products to the Amazon Sales Channel?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'How to make your Shopify Products available ?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      }
+    ],
+    'Product Section': [
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'How to make your Shopify Products ?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Is it necessary to select any plan to use the app?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Will my plan get downgraded if I will not reach the limit as per the plan I selected?'
+      },
+      {
+        content: 'Shipping products to other countries, especially those overseas, can often be... show more',
+        title: 'Can we connect the Amazon pay account with the app?'
+      }
+    ]
+  }}
+  reverseNavigation
+  title="FAQ"
+/>
+
+        </Card>
  
 
 
